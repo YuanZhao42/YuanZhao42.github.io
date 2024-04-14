@@ -349,6 +349,7 @@ your content will conflict with basic or extended Markdown syntax, and it is ine
 
 The escape character syntax can help you build the content you wanted:
 
+<!--    注释掉
 ```markdown
 {{??}X} -> X
 ```
@@ -376,4 +377,4 @@ Another example is:
 The rendered output looks like this:
 
 **[link{?]}(#escape-character)** instead of **[link](#escape-character)**.
-
+-->
