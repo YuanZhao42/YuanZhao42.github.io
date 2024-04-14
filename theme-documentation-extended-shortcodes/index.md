@@ -26,9 +26,9 @@ And the **second** one is the tag name of the HTML element wrapping the content 
 Example `style` input:
 
 ```markdown
-{{/* style "text-align:right; strong{color:#00b1ff;}" */}}
+{{</* style "text-align:right; color:#00b1ff;" */>}}
 This is a **right-aligned** paragraph.
-{{/* /style */}}
+{{</* /style */>}}
 ```
 
 The rendered output looks like this:
